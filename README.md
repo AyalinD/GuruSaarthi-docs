@@ -1,4 +1,4 @@
-# GuruSaarthi-docs
+# GuruSaarthi Docs
 Privacy Policy and Terms &amp; Conditions for GuruSaarthi — an emotional guidance AI bot hosted on BharatGPT.
 
 # GuruSaarthi Docs
@@ -16,10 +16,3 @@ The HTML files in this repository are intended to be hosted via GitHub Pages, pr
 
 These documents ensure transparency and compliance for users of GuruSaarthi. They outline data usage, safety considerations, and limitations of the AI bot.
 
-## Deployment
-
-Use GitHub Pages to host these files:
-
-1. Go to repository **Settings → Pages**
-2. Select the main branch
-3. Publish → obtain live URLs to use in BharatGPT bot settings
