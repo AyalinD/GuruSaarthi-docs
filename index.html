@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>GuruSaarthi</title>
+  <title>GuruSaarthi Docs</title>
   <style>
     body { 
       font-family: Arial; 
@@ -13,44 +13,31 @@
       background-color: #f7f7f7; 
       color: #2c3e50; 
     }
-    h1 { 
-      color: #2c3e50; 
-    }
-    a { 
+    h1 { color: #2c3e50; }
+    a, button { 
       display: block; 
-      margin: 20px 0; 
+      margin: 20px auto; 
       font-size: 18px; 
       color: #2c3e50; 
       text-decoration: none; 
+      padding: 12px 20px; 
+      border: 2px solid #2c3e50; 
+      border-radius: 8px; 
+      background-color: #fff; 
+      cursor: pointer;
+      max-width: 300px;
     }
-    .chat-container {
-      margin-top: 40px;
-      height: 500px;
-    }
+    button:hover, a:hover { background-color: #e0e0e0; }
   </style>
 </head>
 <body>
   <h1>Welcome to GuruSaarthi</h1>
   <p>Your personal emotional guidance chatbot.</p>
 
-  <div class="chat-container">
-    <!-- CoRover / BharatGPT Chat Widget -->
-    <script>
-      var s = document.createElement("script");
-      s.src = "https://builder.corover.ai/params/widget/corovercb.lib.min.js?appId=414c2d10-8900-45fe-aa0e-9fb27bf8388b";
-      s.type = "text/javascript";
-      document.getElementsByTagName("body")[0].appendChild(s);
-    </script>
-    <script>
-      window.addEventListener('load', function() {
-        if(window.CoroverCB) {
-          window.CoroverCB.init({
-            welcomeMessage: "Namaste! I am GuruSaarthi, here to guide you. How are you feeling today?"
-          });
-        }
-      });
-    </script>
-  </div>
+  <!-- Button to open hosted GuruSaarthi chatbot -->
+  <button onclick="window.open('https://builder.corover.ai/chat/appId=414c2d10-8900-45fe-aa0e-9fb27bf8388b', '_blank')">
+    Open GuruSaarthi Chat
+  </button>
 
   <h2>Legal</h2>
   <a href="privacy.html" target="_blank">Privacy Policy</a>
